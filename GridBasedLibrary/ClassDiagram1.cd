@@ -1,0 +1,469 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="GridBasedLibrary.Actor" Collapsed="true">
+    <Position X="0.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ADAAAAAAAAACIAAAAAAAAAAAAAAAAAAAAECAAAAAIAA=</HashCode>
+      <FileName>implementazioni\Actor\Actor.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="GridBasedLibrary.HSActor" Collapsed="true">
+    <Position X="0.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEAAAAAAAAEAQAAAAAAAAAABAA=</HashCode>
+      <FileName>implementazioni\Actor\HSActor.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GridBasedLibrary.CoordSelecter" Collapsed="true">
+    <Position X="6" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAABIAAEBAAAEACAAAAIAACAAEAAABAQAAAAAA=</HashCode>
+      <FileName>implementazioni\CoordSelecter\CoordSelecter.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="GridBasedLibrary.GridCoordSelecter" Collapsed="true">
+    <Position X="3.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAgAAAIIAEBIAAAACAAAAgAACAAAAAABAQAAAAAA=</HashCode>
+      <FileName>implementazioni\CoordSelecter\GridCoordSelecter.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GridBasedLibrary.GridListCoordSelecter" Collapsed="true">
+    <Position X="6" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAgAAAIIAEBIAAAACAAAAAAACAAAAAABAQAAAAAA=</HashCode>
+      <FileName>implementazioni\CoordSelecter\GridListCoordSelecter.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GridBasedLibrary.ListCoordSelecter" Collapsed="true">
+    <Position X="8.25" Y="5.75" Width="1.5" />
+    <NestedTypes>
+      <Class Name="GridBasedLibrary.ListCoordSelecter.ListCoordSelectionEnumerator" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>implementazioni\CoordSelecter\ListCoordSelecter.vb</NewMemberFileName>
+        </TypeIdentifier>
+        <Lollipop Position="0.2" />
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABIAAEBAAAAACAAAAAAACAAAAAABAQAAAAAA=</HashCode>
+      <FileName>implementazioni\CoordSelecter\ListCoordSelecter.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GridBasedLibrary.CascadingCoordComparer" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="14" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAAAAAAAAgAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>implementazioni\CoordSorter\CascadingCoordComparer.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="GridBasedLibrary.LinearCoordComparer" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="15.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACIAAgAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>implementazioni\CoordSorter\LinearCoordComparer.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="GridBasedLibrary.RadialCoordComparer" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="17.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABABAAAAAQAAAAAAIACIACAAAAAAAAIABAAgAAAAA=</HashCode>
+      <FileName>implementazioni\CoordSorter\RadialCoordComparer.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="GridBasedLibrary.DiagonalDistanceFunction" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="15.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAAAABAAAAAAAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>implementazioni\DistanceFunction\DiagonalDistanceFunction.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="GridBasedLibrary.EuclideanDistanceFunction" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="19.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAAAABAAAAAAAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>implementazioni\DistanceFunction\EuclideanDistanceFunction.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="GridBasedLibrary.ManhattanDistanceFunction" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="17.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAAAABAAAAAAAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>implementazioni\DistanceFunction\ManhattanDistanceFunction.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="GridBasedLibrary.SquaredEuclideanDistanceFunction" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="14" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAAAABAAAAAAAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>implementazioni\DistanceFunction\SquaredEuclideanDistanceFunction.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="GridBasedLibrary.Errorable" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="17.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAQAAAAAAAAAAAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>implementazioni\Error\Errorable.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="GridBasedLibrary.HSMap" Collapsed="true">
+    <Position X="8.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ARSAAAAAAAICAAAAQAgAAAAAAABgQAuAFAAAAAAQAAA=</HashCode>
+      <FileName>implementazioni\HS\HSMap.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="GridBasedLibrary.HSMapClient" Collapsed="true">
+    <Position X="8.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAABAgCAAQABAAAgACAAAABAAAEAAAAAA=</HashCode>
+      <FileName>implementazioni\HS\HSMapClient.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="GridBasedLibrary.HSMapClientWithScreen" Collapsed="true">
+    <Position X="8.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AMIAACAYIMgBAKAgACwAQAAoAmFIAAAIgAAAEAAEwIY=</HashCode>
+      <FileName>implementazioni\HS\HSMapClientWithScreen.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="GridBasedLibrary.HSMapTile" Collapsed="true">
+    <Position X="5.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ARABUAAACgAQEQAAAAAAAAAAAAAIAAiAgAACAAAAAAA=</HashCode>
+      <FileName>implementazioni\HS\HSMapTile.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="GridBasedLibrary.HSMapTileClient" Collapsed="true">
+    <Position X="5.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAQAAAQAQAiAAAAAAAAAgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>implementazioni\HS\HSMapTileClient.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="GridBasedLibrary.HSTile" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="14" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAQAAAEIACAAAAAABQAQAAAIAAAEAgEAgAACBAEABgg=</HashCode>
+      <FileName>implementazioni\HS\HSTile.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="GridBasedLibrary.Located" Collapsed="true">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAQCCAAAAAIgAAAgIAAAAAAAABAAAYAAAgIAAYAI=</HashCode>
+      <FileName>implementazioni\location system\Located.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="GridBasedLibrary.Movable" Collapsed="true">
+    <Position X="1.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAgEAAAAAABAYIAAAAAAgAAAAIAQAIQAAgAAAAAAA=</HashCode>
+      <FileName>implementazioni\location system\Movable.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="GridBasedLibrary.Movable2" Collapsed="true">
+    <Position X="0.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAgEAAAAAAAAAIAAAAAAgAAAAIAAAIQAAgAAAAAAA=</HashCode>
+      <FileName>implementazioni\location system\Movable2.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GridBasedLibrary.MapGenerator" Collapsed="true">
+    <Position X="5.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>implementazioni\MapGenerator\MapGenerator.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="GridBasedLibrary.MazeGenerator" Collapsed="true">
+    <Position X="5.5" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QEAQAAAAAAEAAAAhAAAgiEEAABBAAAAAAAAJCEAAAAg=</HashCode>
+      <FileName>implementazioni\MapGenerator\MazeGenerator.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GridBasedLibrary.RandomMapGenerator" Collapsed="true">
+    <Position X="5.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>implementazioni\MapGenerator\RandomMapGenerator.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GridBasedLibrary.PathFinder" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="15.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAUAAAAAAAAAAAAAAAAAAAAAAICgAAAAAAACAAAAA=</HashCode>
+      <FileName>implementazioni\PathFinder\PathFinder.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="GridBasedLibrary.MSRandomGenerator" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="19.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAABAAAAAQAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>implementazioni\Random\MSRandomGenerator.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="GridBasedLibrary.RandomGenerator" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="19.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAABAAAAAQAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>implementazioni\Random\RandomGenerator.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="GridBasedLibrary.SizeableRange" Collapsed="true">
+    <Position X="11.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAABAABAAAAAAEAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>implementazioni\Range\SizeableRange.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="GridBasedLibrary.StaticRange" Collapsed="true">
+    <Position X="11.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ADCCQwgAQBJAAACEEQAAAAAAAAAAQAAAQAkAABAACAA=</HashCode>
+      <FileName>implementazioni\Range\StaticRange.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="GridBasedLibrary.Rectangle" Collapsed="true">
+    <Position X="3" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAIAIAABAAAQAAAAAAEAAAEAQAAQ=</HashCode>
+      <FileName>implementazioni\Rectangle.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GridBasedLibrary.My.MySettings" Collapsed="true">
+    <Position X="14" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GridBasedLibrary.NullDistanceFunction" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="3.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAAAABAAAAAAAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>implementazioni\DistanceFunction\NullDistanceFunction.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="GridBasedLibrary.AStarPathFinder" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>SIAgAAAEAAAAAAAAAMAAAAACAAAIEECAEAgCgAAAAAA=</HashCode>
+      <FileName>implementazioni\PathFinder\AStarPathFinder.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GridBasedLibrary.DijkstraPathFinder" Collapsed="true">
+    <Position X="0.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>implementazioni\PathFinder\DijkstraPathFinder.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="GridBasedLibrary.Coord" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="14" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAMAgUiCAAAABI4MAAgIAAgAAAAIBQAIYAAggIAAYAI=</HashCode>
+      <FileName>implementazioni\location system\Coord.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Struct>
+  <Struct Name="GridBasedLibrary.Direction" Collapsed="true">
+    <Position X="15.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAEQhABAAAAgAAAQAAAAAAAAYCACAgAAGAAAEBAAA=</HashCode>
+      <FileName>implementazioni\location system\Direction.vb</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="GridBasedLibrary.Size" Collapsed="true">
+    <Position X="17.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAQAQAAAAABAAAQAAAAAAAAAAEAAAAQ=</HashCode>
+      <FileName>implementazioni\Size.vb</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="GridBasedLibrary.PathFinderNode" Collapsed="true">
+    <Position X="3" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAgAAAIAIAAAAAAAAAAAAAAgAgAAAAAA=</HashCode>
+      <FileName>implementazioni\PathFinder\PathFinderNode.vb</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Interface Name="GridBasedLibrary.IActor" Collapsed="true">
+    <Position X="0.5" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ADAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAECAAAAAIAA=</HashCode>
+      <FileName>Inteface\IActor.vb</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="GridBasedLibrary.ICoordDistanceFunction" Collapsed="true">
+    <Position X="14" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Inteface\ICoordDistanceFunction.vb</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="GridBasedLibrary.ICoordSelecter" Collapsed="true">
+    <Position X="15.75" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAABIAAEAAAAEACAAAAIAAAAAEAAABAQAAAAAA=</HashCode>
+      <FileName>Inteface\ICoordSelecter.vb</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="GridBasedLibrary.IErrorable" Collapsed="true">
+    <Position X="17.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Inteface\IErrorable.vb</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="GridBasedLibrary.ILocated" Collapsed="true">
+    <Position X="1.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAQCCAAAAAIgAAAgIAAAAAAAABAAAYAAAgIAAAAI=</HashCode>
+      <FileName>Inteface\ILocated.vb</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="GridBasedLibrary.IMap" Collapsed="true">
+    <Position X="8.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ARQAAAACAAAAAACAQAgAAAAAAABAAAmAFAAAAAAAAAA=</HashCode>
+      <FileName>Inteface\IMap.vb</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="GridBasedLibrary.IMapClient" Collapsed="true">
+    <Position X="8.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAABAAAgAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>Inteface\IMapClient.vb</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="GridBasedLibrary.IMapGenerator" Collapsed="true">
+    <Position X="19.25" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>Inteface\IMapGenerator.vb</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="GridBasedLibrary.IMapTile" Collapsed="true">
+    <Position X="2.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ARAAAAAACgAQEQAAAAAAAAAAAAAIAAiAgAACAAAAAAA=</HashCode>
+      <FileName>Inteface\IMapTile.vb</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="GridBasedLibrary.IMapTileClient" Collapsed="true">
+    <Position X="2.75" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAiAAAAAAAAAgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Inteface\IMapTileClient.vb</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="GridBasedLibrary.IMovable" Collapsed="true">
+    <Position X="0.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAgEAAAAAABAYIAAAAAAgAAAAIAQAIQAAgAAAAAAA=</HashCode>
+      <FileName>Inteface\IMovable.vb</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="GridBasedLibrary.IPathFinder" Collapsed="true">
+    <Position X="14" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Inteface\IPathFinder.vb</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="GridBasedLibrary.IRandomGenerator" Collapsed="true">
+    <Position X="15.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAABAAAAAQAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Inteface\IRandomGenerator.vb</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="GridBasedLibrary.IRange" Collapsed="true">
+    <Position X="8.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ADAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAgAABAAAAA=</HashCode>
+      <FileName>Inteface\IRange.vb</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="GridBasedLibrary.ISizeableRange" Collapsed="true">
+    <Position X="8.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAABAABAAAAAAEAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Inteface\ISizeableRange.vb</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="GridBasedLibrary.ITile" Collapsed="true">
+    <Position X="17.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAQAAAEIACAAAAAABQAQAAAIAAAAAgEAgAACAAEABgg=</HashCode>
+      <FileName>Inteface\ITile.vb</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="GridBasedLibrary.coefficientDirection" Collapsed="true">
+    <Position X="14" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAACAAAAAAAAIA=</HashCode>
+      <FileName>Costanti\coefficientDirection.vb</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="GridBasedLibrary.flagStartPoint" Collapsed="true">
+    <Position X="15.75" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAQAQAAAAAAICAAAhAAAAAAAAABA=</HashCode>
+      <FileName>implementazioni\MapGenerator\flagStartPoint.vb</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="GridBasedLibrary.mazeMode" Collapsed="true">
+    <Position X="17.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEEAAAAABAAAAgACAAAAAAAAAAYCAAAgAAEAAAAEIAA=</HashCode>
+      <FileName>implementazioni\MapGenerator\mazeMode.vb</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="GridBasedLibrary.ActorDirections" Collapsed="true">
+    <Position X="3" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEEAAAAABAAAAgAAAAAAAAAAAAYCAAAgAAEAAAAAIAA=</HashCode>
+      <FileName>implementazioni\Actor\ActorDirectons.vb</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Module Name="GridBasedLibrary.My.Resources.Resources" Collapsed="true">
+    <Position X="15.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Module>
+  <Module Name="GridBasedLibrary.My.MySettingsProperty" Collapsed="true">
+    <Position X="14" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Module>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,53 @@
+H=GridBasedLibrary.ManhattanDistanceFunction t=15,6223ms open=304 close=184
+H=GridBasedLibrary.DiagonalDistanceFunction t=0ms open=329 close=192
+H=GridBasedLibrary.EuclideanDistanceFunction t=15,5971ms open=354 close=200
+H=GridBasedLibrary.SquaredEuclideanDistanceFunction t=15,598ms open=404 close=216
+H=GridBasedLibrary.NullDistanceFunction t=78,1141ms open=583 close=360
+
+H=GridBasedLibrary.ManhattanDistanceFunction t=31,2181ms open=657 close=408
+H=GridBasedLibrary.DiagonalDistanceFunction t=46,867ms open=757 close=478
+H=GridBasedLibrary.EuclideanDistanceFunction t=31,2494ms open=844 close=537
+H=GridBasedLibrary.SquaredEuclideanDistanceFunction t=15,6103ms open=873 close=550
+H=GridBasedLibrary.NullDistanceFunction t=171,8544ms open=1224 close=850
+
+H=GridBasedLibrary.ManhattanDistanceFunction t=62,4713ms open=1339 close=930
+H=GridBasedLibrary.DiagonalDistanceFunction t=78,0996ms open=1508 close=1058
+H=GridBasedLibrary.EuclideanDistanceFunction t=62,4888ms open=1643 close=1156
+H=GridBasedLibrary.SquaredEuclideanDistanceFunction t=15,609ms open=1687 close=1175
+H=GridBasedLibrary.NullDistanceFunction t=249,9817ms open=2236 close=1659
+
+H=GridBasedLibrary.ManhattanDistanceFunction t=62,4704ms open=2376 close=1760
+H=GridBasedLibrary.DiagonalDistanceFunction t=109,3476ms open=2584 close=1921
+H=GridBasedLibrary.EuclideanDistanceFunction t=78,1106ms open=2754 close=2048
+H=GridBasedLibrary.SquaredEuclideanDistanceFunction t=31,222ms open=2817 close=2087
+H=GridBasedLibrary.NullDistanceFunction t=296,8546ms open=3486 close=2683
+
+H=GridBasedLibrary.ManhattanDistanceFunction t=156,2338ms open=3801 close=2938
+H=GridBasedLibrary.DiagonalDistanceFunction t=218,7281ms open=4252 close=3313
+H=GridBasedLibrary.EuclideanDistanceFunction t=171,88ms open=4637 close=3630
+H=GridBasedLibrary.SquaredEuclideanDistanceFunction t=31,2352ms open=4711 close=3670
+H=GridBasedLibrary.NullDistanceFunction t=468,7761ms open=6091 close=4941
+
+H=GridBasedLibrary.ManhattanDistanceFunction t=171,8513ms open=6466 close=5248
+H=GridBasedLibrary.DiagonalDistanceFunction t=265,6399ms open=7031 close=5727
+H=GridBasedLibrary.EuclideanDistanceFunction t=221,1665ms open=7502 close=6122
+H=GridBasedLibrary.SquaredEuclideanDistanceFunction t=46,8669ms open=7620 close=6202
+H=GridBasedLibrary.NullDistanceFunction t=484,3805ms open=9420 close=7888
+
+H=GridBasedLibrary.ManhattanDistanceFunction t=664,9509ms open=13436 close=11905
+H=GridBasedLibrary.DiagonalDistanceFunction t=671,8742ms open=17452 close=15922
+H=GridBasedLibrary.EuclideanDistanceFunction t=671,8922ms open=21468 close=19939
+H=GridBasedLibrary.SquaredEuclideanDistanceFunction t=656,2481ms open=25484 close=23956
+H=GridBasedLibrary.NullDistanceFunction t=703,1244ms open=29500 close=27973
+
+H=GridBasedLibrary.ManhattanDistanceFunction t=15,6274ms open=29534 close=28008
+H=GridBasedLibrary.DiagonalDistanceFunction t=15,5936ms open=29568 close=28043
+H=GridBasedLibrary.EuclideanDistanceFunction t=31,2373ms open=29602 close=28078
+H=GridBasedLibrary.SquaredEuclideanDistanceFunction t=31,2181ms open=29636 close=28113
+H=GridBasedLibrary.NullDistanceFunction t=31,2267ms open=29670 close=28148
+
+H=GridBasedLibrary.ManhattanDistanceFunction t=109,3476ms open=29940 close=28414
+H=GridBasedLibrary.DiagonalDistanceFunction t=109,3468ms open=30246 close=28716
+H=GridBasedLibrary.EuclideanDistanceFunction t=93,7527ms open=30536 close=29001
+H=GridBasedLibrary.SquaredEuclideanDistanceFunction t=93,7236ms open=31058 close=29513
+H=GridBasedLibrary.NullDistanceFunction t=109,3476ms open=31476 close=29924

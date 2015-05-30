@@ -1,0 +1,41 @@
+F:\Progetti VB.NET\GridBasedLibrary\TestConsole\bin\Debug\TestConsole.exe
+F:\Progetti VB.NET\GridBasedLibrary\TestConsole\bin\Debug\TestConsole.pdb
+F:\Progetti VB.NET\GridBasedLibrary\TestConsole\bin\Debug\TestConsole.xml
+F:\Progetti VB.NET\GridBasedLibrary\TestConsole\bin\Debug\GridBasedLibrary.dll
+F:\Progetti VB.NET\GridBasedLibrary\TestConsole\bin\Debug\GridBasedLibrary.pdb
+F:\Progetti VB.NET\GridBasedLibrary\TestConsole\bin\Debug\GridBasedLibrary.xml
+F:\Progetti VB.NET\GridBasedLibrary\TestConsole\obj\x86\Debug\TestConsole.vbprojResolveAssemblyReference.cache
+F:\Progetti VB.NET\GridBasedLibrary\TestConsole\obj\x86\Debug\TestConsole.Resources.resources
+F:\Progetti VB.NET\GridBasedLibrary\TestConsole\obj\x86\Debug\TestConsole.vbproj.GenerateResource.Cache
+F:\Progetti VB.NET\GridBasedLibrary\TestConsole\obj\x86\Debug\TestConsole.exe
+F:\Progetti VB.NET\GridBasedLibrary\TestConsole\obj\x86\Debug\TestConsole.xml
+F:\Progetti VB.NET\GridBasedLibrary\TestConsole\obj\x86\Debug\TestConsole.pdb
+G:\Progetti VB.NET\GridBasedLibrary\TestConsole\obj\x86\Debug\TestConsole.exe
+G:\Progetti VB.NET\GridBasedLibrary\TestConsole\obj\x86\Debug\TestConsole.xml
+G:\Progetti VB.NET\GridBasedLibrary\TestConsole\obj\x86\Debug\TestConsole.pdb
+E:\Progetti VB.NET\GridBasedLibrary\TestConsole\obj\x86\Debug\TestConsole.vbprojResolveAssemblyReference.cache
+E:\Progetti VB.NET\GridBasedLibrary\TestConsole\obj\x86\Debug\TestConsole.Resources.resources
+E:\Progetti VB.NET\GridBasedLibrary\TestConsole\obj\x86\Debug\TestConsole.vbproj.GenerateResource.Cache
+E:\Progetti VB.NET\GridBasedLibrary\TestConsole\obj\x86\Debug\TestConsole.exe
+E:\Progetti VB.NET\GridBasedLibrary\TestConsole\obj\x86\Debug\TestConsole.xml
+E:\Progetti VB.NET\GridBasedLibrary\TestConsole\obj\x86\Debug\TestConsole.pdb
+E:\Progetti VB.NET\GridBasedLibrary\TestConsole\bin\Debug\TestConsole.exe
+E:\Progetti VB.NET\GridBasedLibrary\TestConsole\bin\Debug\TestConsole.pdb
+E:\Progetti VB.NET\GridBasedLibrary\TestConsole\bin\Debug\TestConsole.xml
+E:\Progetti VB.NET\GridBasedLibrary\TestConsole\bin\Debug\GridBasedLibrary.dll
+E:\Progetti VB.NET\GridBasedLibrary\TestConsole\bin\Debug\GridBasedLibrary.pdb
+E:\Progetti VB.NET\GridBasedLibrary\TestConsole\bin\Debug\GridBasedLibrary.xml
+F:\GridBasedLibrary\TestConsole\obj\x86\Debug\TestConsole.exe
+F:\GridBasedLibrary\TestConsole\obj\x86\Debug\TestConsole.xml
+F:\GridBasedLibrary\TestConsole\obj\x86\Debug\TestConsole.pdb
+F:\GridBasedLibrary\TestConsole\obj\x86\Debug\TestConsole.vbprojResolveAssemblyReference.cache
+F:\GridBasedLibrary\TestConsole\obj\x86\Debug\TestConsole.Resources.resources
+F:\GridBasedLibrary\TestConsole\obj\x86\Debug\TestConsole.vbproj.GenerateResource.Cache
+F:\GridBasedLibrary\TestConsole\bin\Debug\TestConsole.exe
+F:\GridBasedLibrary\TestConsole\bin\Debug\TestConsole.pdb
+F:\GridBasedLibrary\TestConsole\bin\Debug\TestConsole.xml
+F:\GridBasedLibrary\TestConsole\bin\Debug\GridBasedLibrary.dll
+F:\GridBasedLibrary\TestConsole\bin\Debug\GridBasedLibrary.pdb
+F:\GridBasedLibrary\TestConsole\bin\Debug\GridBasedLibrary.xml
+F:\GridBasedLibrary\TestConsole\bin\Debug\TestConsole.exe.CodeAnalysisLog.xml
+F:\GridBasedLibrary\TestConsole\bin\Debug\TestConsole.exe.lastcodeanalysissucceeded

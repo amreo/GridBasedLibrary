@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shfbBuild product="Sandcastle Help File Builder" version="2015.5.2.0" projectFile="F:\doc.shfbproj" started="13/05/2015 19.03.43">
+<buildStep step="Initializing">
+Finding tools...
+The Sandcastle tools are located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\&#39;
+Searching for HTML Help 1 compiler...
+Found HTML Help 1 compiler in &#39;C:\Program Files (x86)\HTML Help Workshop\&#39;
+Locating components in the following folder(s):
+   F:\
+Using presentation style &#39;VS2013&#39; located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013&#39;
+Loading and initializing plug-ins...
+Lightweight Website Style Version 2015.5.2.0
+Copyright &#169; 2006-2015, Eric Woodruff, All Rights Reserved
+Portions Copyright &#169; 2014, Sam Harwell, All Rights Reserved
+</buildStep>
+<buildStep step="ValidatingDocumentationSources">
+Validating and copying documentation source information
+Source: F:\GridBasedLibrary\GridBasedLibrary\GridBasedLibrary.vbproj
+    Found project &#39;F:\GridBasedLibrary\GridBasedLibrary\GridBasedLibrary.vbproj&#39;
+
+Parsing project files
+    Found assembly &#39;F:\GridBasedLibrary\GridBasedLibrary\bin\Debug\GridBasedLibrary.dll&#39;
+
+References to include (excluding framework assemblies):
+    None
+
+Copying XML comments files
+    F:\GridBasedLibrary\GridBasedLibrary\bin\Debug\GridBasedLibrary.xml -&gt; F:\Help\Working\GridBasedLibrary.xml
+</buildStep>
+<buildStep step="GenerateSharedContent">
+Generating shared content files (en-US, Inglese (Stati Uniti))...
+<plugIn name="Lightweight Website Style" behavior="After" priority="1000">
+</plugIn>    Last step completed in 00:00:00,3125
+</buildStep>
+<buildStep step="GenerateApiFilter">
+Generating API filter for MRefBuilder...
+    Last step completed in 00:00:00,0781
+</buildStep>
+<buildStep step="GenerateReflectionInfo">
+Generating reflection information...
+[C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe]
+Compilazione avviata 13/05/2015 19.03.47.
+Progetto &quot;F:\Help\Working\GenerateRefInfo.proj&quot; sul nodo 1 (destinazioni predefinite).
+PrepareForBuild:
+  Creazione directory &quot;obj\Debug\&quot;.
+GenerateRefInfo:
+  MRefBuilder (v2015.5.2.0)
+  Copyright &#184; 2006-2015, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright &#184; 2006-2014, Eric Woodruff, All Rights Reserved.
+  Loaded 1 assemblies for reflection and 1 dependency assemblies.
+  Wrote information on 1 namespaces, 70 types, and 858 members
+  Copia del file da &quot;reflection.org&quot; a &quot;reflection.all&quot;.
+  XslTransform (v2015.5.2.0)
+  Copyright &#184; 2006-2015, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright &#184; 2006-2014, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\MergeDuplicates.xsl&#39;.
+Compilazione progetto &quot;F:\Help\Working\GenerateRefInfo.proj&quot; (destinazioni predefinite) completata.
+
+Compilazione completata.
+
+Tempo trascorso 00:00:08.75
+    Last step completed in 00:00:10,1932
+</buildStep>
+<buildStep step="TransformReflectionInfo">
+Transforming reflection output...
+[C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe]
+Compilazione avviata 13/05/2015 19.03.57.
+Progetto &quot;F:\Help\Working\TransformManifest.proj&quot; sul nodo 1 (destinazioni predefinite).
+TransformManifest:
+  XslTransform (v2015.5.2.0)
+  Copyright &#184; 2006-2015, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright &#184; 2006-2014, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\\ProductionTransforms\ApplyVSDocModel.xsl&#39;.
+  Copia del file da &quot;reflection.xml&quot; a &quot;reflection.nofilenames&quot;.
+  XslTransform (v2015.5.2.0)
+  Copyright &#184; 2006-2015, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright &#184; 2006-2014, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\AddFilenames.xsl&#39;.
+  XslTransform (v2015.5.2.0)
+  Copyright &#184; 2006-2015, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright &#184; 2006-2014, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\ReflectionToManifest.xsl&#39;.
+Compilazione progetto &quot;F:\Help\Working\TransformManifest.proj&quot; (destinazioni predefinite) completata.
+
+Compilazione completata.
+
+Tempo trascorso 00:00:11.98
+    Last step completed in 00:00:12,7529
+</buildStep>
+<buildStep step="GenerateNamespaceSummaries">
+Generating namespace summary information...
+    Last step completed in 00:00:01,1563
+</buildStep>
+<buildStep step="CopyAdditionalContent">
+Copying additional content files...
+No additional content to copy
+    Last step completed in 00:00:00,0156
+</buildStep>
+<buildStep step="MergeTablesOfContents">
+Merging conceptual and additional tables of contents...
+    Last step completed in 00:00:00,0000
+</buildStep>
+<buildStep step="GenerateIntermediateTableOfContents">
+Generating intermediate table of contents file...
+[C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe]
+Compilazione avviata 13/05/2015 19.04.11.
+Progetto &quot;F:\Help\Working\GenerateIntermediateTOC.proj&quot; sul nodo 1 (destinazioni predefinite).
+GenerateIntermediateTOC:
+  XslTransform (v2015.5.2.0)
+  Copyright &#184; 2006-2015, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright &#184; 2006-2014, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\\ProductionTransforms\CreateVSToc.xsl&#39;.
+Compilazione progetto &quot;F:\Help\Working\GenerateIntermediateTOC.proj&quot; (destinazioni predefinite) completata.
+
+Compilazione completata.
+
+Tempo trascorso 00:00:01.60
+Generating conceptual content intermediate TOC file...
+    Last step completed in 00:00:02,3752
+</buildStep>
+<buildStep step="CreateBuildAssemblerConfigs">
+Creating Sandcastle configuration files...
+    sandcastle.config
+    Last step completed in 00:00:01,4431
+</buildStep>
+<buildStep step="MergeCustomConfigs">
+Merging custom build component configurations
+F:\Help\Working\sandcastle.config
+    Last step completed in 00:00:00,1407
+</buildStep>
+<buildStep step="BuildReferenceTopics">
+Building reference help topics...
+[C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe]
+Compilazione avviata 13/05/2015 19.04.16.
+Progetto &quot;F:\Help\Working\BuildReferenceTopics.proj&quot; sul nodo 1 (destinazioni predefinite).
+BuildReferenceTopics:
+  BuildAssembler (v2015.5.2.0)
+  Copyright &#184; 2006-2015, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright &#184; 2006-2014, Eric Woodruff, All Rights Reserved.
+  Loading configuration...
+  ResolveReferenceLinksComponent: The MSDN content ID cache &#39;C:\Users\amreo\AppData\Local\EWSoftware\Sandcastle Help File Builder\Cache\MsdnContentId.cache&#39; does not exist yet.  All IDs will be looked up in this build which will slow it down.
+  Processing topics...
+BuildAssembler : warning : ShowMissingComponent: [N:GridBasedLibrary] Missing &lt;summary&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.AStarPathFinder.#ctor(GridBasedLibrary.ActorDirections,GridBasedLibrary.ICoordDistanceFunction,System.Single)] Missing &lt;param name=&quot;heuristicFunction&quot;/&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.AStarPathFinder.#ctor(GridBasedLibrary.ActorDirections,GridBasedLibrary.ICoordDistanceFunction,System.Single)] Missing &lt;param name=&quot;scale&quot;/&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.AStarPathFinder.StartFind] Missing &lt;returns&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.CascadingCoordComparer.#ctor(System.Collections.Generic.IComparer{GridBasedLibrary.ILocated}[])] Missing &lt;param name=&quot;comparators&quot;/&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.Coord.op_Equality(GridBasedLibrary.Coord,GridBasedLibrary.Coord)] Missing &lt;summary&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.Coord.op_Equality(GridBasedLibrary.Coord,GridBasedLibrary.Coord)] Missing &lt;returns&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.Coord.op_Equality(GridBasedLibrary.Coord,GridBasedLibrary.Coord)] Missing &lt;param name=&quot;left&quot;/&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.Coord.op_Equality(GridBasedLibrary.Coord,GridBasedLibrary.Coord)] Missing &lt;param name=&quot;right&quot;/&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.Coord.op_Equality(GridBasedLibrary.Coord,GridBasedLibrary.ILocated)] Missing &lt;summary&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.Coord.op_Equality(GridBasedLibrary.Coord,GridBasedLibrary.ILocated)] Missing &lt;returns&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.Coord.op_Equality(GridBasedLibrary.Coord,GridBasedLibrary.ILocated)] Missing &lt;param name=&quot;left&quot;/&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.Coord.op_Equality(GridBasedLibrary.Coord,GridBasedLibrary.ILocated)] Missing &lt;param name=&quot;right&quot;/&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.Coord.op_Equality(GridBasedLibrary.ILocated,GridBasedLibrary.Coord)] Missing &lt;summary&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.Coord.op_Equality(GridBasedLibrary.ILocated,GridBasedLibrary.Coord)] Missing &lt;returns&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.Coord.op_Equality(GridBasedLibrary.ILocated,GridBasedLibrary.Coord)] Missing &lt;param name=&quot;left&quot;/&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.Coord.op_Equality(GridBasedLibrary.ILocated,GridBasedLibrary.Coord)] Missing &lt;param name=&quot;right&quot;/&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.Coord.op_Inequality(GridBasedLibrary.Coord,GridBasedLibrary.Coord)] Missing &lt;summary&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.Coord.op_Inequality(GridBasedLibrary.Coord,GridBasedLibrary.Coord)] Missing &lt;returns&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.Coord.op_Inequality(GridBasedLibrary.Coord,GridBasedLibrary.Coord)] Missing &lt;param name=&quot;left&quot;/&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.Coord.op_Inequality(GridBasedLibrary.Coord,GridBasedLibrary.Coord)] Missing &lt;param name=&quot;right&quot;/&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.Coord.op_Inequality(GridBasedLibrary.Coord,GridBasedLibrary.ILocated)] Missing &lt;summary&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.Coord.op_Inequality(GridBasedLibrary.Coord,GridBasedLibrary.ILocated)] Missing &lt;returns&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.Coord.op_Inequality(GridBasedLibrary.Coord,GridBasedLibrary.ILocated)] Missing &lt;param name=&quot;left&quot;/&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.Coord.op_Inequality(GridBasedLibrary.Coord,GridBasedLibrary.ILocated)] Missing &lt;param name=&quot;right&quot;/&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.Coord.op_Inequality(GridBasedLibrary.ILocated,GridBasedLibrary.Coord)] Missing &lt;summary&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.Coord.op_Inequality(GridBasedLibrary.ILocated,GridBasedLibrary.Coord)] Missing &lt;returns&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.Coord.op_Inequality(GridBasedLibrary.ILocated,GridBasedLibrary.Coord)] Missing &lt;param name=&quot;left&quot;/&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.Coord.op_Inequality(GridBasedLibrary.ILocated,GridBasedLibrary.Coord)] Missing &lt;param name=&quot;right&quot;/&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.Coord.Set(GridBasedLibrary.ILocated)] Missing &lt;param name=&quot;c&quot;/&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.Coord.Set(System.Int32,System.Int32)] Missing &lt;param name=&quot;x&quot;/&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.Coord.Set(System.Int32,System.Int32)] Missing &lt;param name=&quot;y&quot;/&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.CoordSelecter.IsSelected(GridBasedLibrary.ILocated)] Missing &lt;returns&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.CoordSelecter.IsSelected(GridBasedLibrary.ILocated[])] Missing &lt;returns&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.CoordSelecter.IsSelected(System.Int32,System.Int32)] Missing &lt;returns&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.Direction.op_Equality(GridBasedLibrary.Direction,GridBasedLibrary.Direction)] Missing &lt;summary&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.Direction.op_Equality(GridBasedLibrary.Direction,GridBasedLibrary.Direction)] Missing &lt;returns&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.Direction.op_Equality(GridBasedLibrary.Direction,GridBasedLibrary.Direction)] Missing &lt;param name=&quot;left&quot;/&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.Direction.op_Equality(GridBasedLibrary.Direction,GridBasedLibrary.Direction)] Missing &lt;param name=&quot;right&quot;/&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.Direction.op_Inequality(GridBasedLibrary.Direction,GridBasedLibrary.Direction)] Missing &lt;summary&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.Direction.op_Inequality(GridBasedLibrary.Direction,GridBasedLibrary.Direction)] Missing &lt;returns&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.Direction.op_Inequality(GridBasedLibrary.Direction,GridBasedLibrary.Direction)] Missing &lt;param name=&quot;left&quot;/&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.Direction.op_Inequality(GridBasedLibrary.Direction,GridBasedLibrary.Direction)] Missing &lt;param name=&quot;right&quot;/&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.GridCoordSelecter.IsSelected(GridBasedLibrary.ILocated)] Missing &lt;returns&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.GridCoordSelecter.IsSelected(System.Int32,System.Int32)] Missing &lt;returns&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.GridCoordSelecter.GridCoordSelectionEnumerator.#ctor(GridBasedLibrary.GridCoordSelecter)] Missing &lt;param name=&quot;gridSelecter&quot;/&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [F:GridBasedLibrary.GridCoordSelecter.GridCoordSelectionEnumerator.startC] Missing &lt;summary&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.GridListCoordSelecter.IsSelected(GridBasedLibrary.ILocated)] Missing &lt;returns&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.GridListCoordSelecter.IsSelected(System.Int32,System.Int32)] Missing &lt;returns&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.HSMap.CreateHSMap(GridBasedLibrary.Coord,GridBasedLibrary.Size)] Missing &lt;returns&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.HSMap.CreateHSMap(GridBasedLibrary.Coord,GridBasedLibrary.Size,GridBasedLibrary.ITile)] Missing &lt;returns&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.HSMap.CreateHSMap(GridBasedLibrary.ILocated,GridBasedLibrary.Size)] Missing &lt;returns&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.HSMap.CreateHSMap(GridBasedLibrary.ILocated,GridBasedLibrary.Size,GridBasedLibrary.ITile)] Missing &lt;returns&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.HSMap.CreateHSMap(GridBasedLibrary.Rectangle)] Missing &lt;returns&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.HSMap.CreateHSMap(GridBasedLibrary.Rectangle,GridBasedLibrary.ITile)] Missing &lt;returns&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.HSMap.CreateHSMap(System.Int32,System.Int32,System.UInt32,System.UInt32)] Missing &lt;returns&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.HSMap.CreateHSMap(System.Int32,System.Int32,System.UInt32,System.UInt32,GridBasedLibrary.ITile)] Missing &lt;returns&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.HSMapClient.CreateHSMapClient(GridBasedLibrary.Coord,GridBasedLibrary.Size)] Missing &lt;returns&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.HSMapClient.CreateHSMapClient(GridBasedLibrary.Coord,GridBasedLibrary.Size,GridBasedLibrary.ITile)] Missing &lt;returns&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.HSMapClient.CreateHSMapClient(GridBasedLibrary.ILocated,GridBasedLibrary.Size)] Missing &lt;returns&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.HSMapClient.CreateHSMapClient(GridBasedLibrary.ILocated,GridBasedLibrary.Size,GridBasedLibrary.ITile)] Missing &lt;returns&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.HSMapClient.CreateHSMapClient(GridBasedLibrary.Rectangle)] Missing &lt;returns&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.HSMapClient.CreateHSMapClient(GridBasedLibrary.Rectangle,GridBasedLibrary.ITile)] Missing &lt;returns&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.HSMapClient.CreateHSMapClient(System.Int32,System.Int32,System.UInt32,System.UInt32)] Missing &lt;returns&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.HSMapClient.CreateHSMapClient(System.Int32,System.Int32,System.UInt32,System.UInt32,GridBasedLibrary.ITile)] Missing &lt;returns&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.HSMapClientWithScreen.#ctor(GridBasedLibrary.Coord,GridBasedLibrary.Size,GridBasedLibrary.Coord,GridBasedLibrary.Size)] Missing &lt;param name=&quot;cScreen&quot;/&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.HSMapClientWithScreen.#ctor(GridBasedLibrary.Coord,GridBasedLibrary.Size,GridBasedLibrary.Coord,GridBasedLibrary.Size)] Missing &lt;param name=&quot;sizeScreen&quot;/&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.HSMapClientWithScreen.#ctor(GridBasedLibrary.Coord,GridBasedLibrary.Size,GridBasedLibrary.ITile,GridBasedLibrary.Coord,GridBasedLibrary.Size)] Missing &lt;param name=&quot;cScreen&quot;/&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.HSMapClientWithScreen.#ctor(GridBasedLibrary.Coord,GridBasedLibrary.Size,GridBasedLibrary.ITile,GridBasedLibrary.Coord,GridBasedLibrary.Size)] Missing &lt;param name=&quot;sizeScreen&quot;/&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.HSMapClientWithScreen.#ctor(GridBasedLibrary.ILocated,GridBasedLibrary.Size,GridBasedLibrary.ILocated,GridBasedLibrary.Size)] Missing &lt;param name=&quot;cScreen&quot;/&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.HSMapClientWithScreen.#ctor(GridBasedLibrary.ILocated,GridBasedLibrary.Size,GridBasedLibrary.ILocated,GridBasedLibrary.Size)] Missing &lt;param name=&quot;sizeScreen&quot;/&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.HSMapClientWithScreen.#ctor(GridBasedLibrary.ILocated,GridBasedLibrary.Size,GridBasedLibrary.ITile,GridBasedLibrary.ILocated,GridBasedLibrary.Size)] Missing &lt;param name=&quot;cScreen&quot;/&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.HSMapClientWithScreen.#ctor(GridBasedLibrary.ILocated,GridBasedLibrary.Size,GridBasedLibrary.ITile,GridBasedLibrary.ILocated,GridBasedLibrary.Size)] Missing &lt;param name=&quot;sizeScreen&quot;/&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.HSMapClientWithScreen.#ctor(GridBasedLibrary.Rectangle,GridBasedLibrary.ITile,GridBasedLibrary.Rectangle)] Missing &lt;param name=&quot;screen&quot;/&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.HSMapClientWithScreen.#ctor(GridBasedLibrary.Rectangle,GridBasedLibrary.Rectangle)] Missing &lt;param name=&quot;screen&quot;/&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.HSMapClientWithScreen.#ctor(System.Int32,System.Int32,System.UInt32,System.UInt32,GridBasedLibrary.ITile,System.Int32,System.Int32,System.Int32,System.Int32)] Missing &lt;param name=&quot;xScreen&quot;/&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.HSMapClientWithScreen.#ctor(System.Int32,System.Int32,System.UInt32,System.UInt32,GridBasedLibrary.ITile,System.Int32,System.Int32,System.Int32,System.Int32)] Missing &lt;param name=&quot;yScreen&quot;/&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.HSMapClientWithScreen.#ctor(System.Int32,System.Int32,System.UInt32,System.UInt32,GridBasedLibrary.ITile,System.Int32,System.Int32,System.Int32,System.Int32)] Missing &lt;param name=&quot;widthScreen&quot;/&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.HSMapClientWithScreen.#ctor(System.Int32,System.Int32,System.UInt32,System.UInt32,GridBasedLibrary.ITile,System.Int32,System.Int32,System.Int32,System.Int32)] Missing &lt;param name=&quot;heightScreen&quot;/&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.HSMapClientWithScreen.#ctor(System.Int32,System.Int32,System.UInt32,System.UInt32,System.Int32,System.Int32,System.Int32,System.Int32)] Missing &lt;param name=&quot;xScreen&quot;/&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.HSMapClientWithScreen.#ctor(System.Int32,System.Int32,System.UInt32,System.UInt32,System.Int32,System.Int32,System.Int32,System.Int32)] Missing &lt;param name=&quot;yScreen&quot;/&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.HSMapClientWithScreen.#ctor(System.Int32,System.Int32,System.UInt32,System.UInt32,System.Int32,System.Int32,System.Int32,System.Int32)] Missing &lt;param name=&quot;widthScreen&quot;/&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.HSMapClientWithScreen.#ctor(System.Int32,System.Int32,System.UInt32,System.UInt32,System.Int32,System.Int32,System.Int32,System.Int32)] Missing &lt;param name=&quot;heightScreen&quot;/&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.HSMapClientWithScreen.CreateHSMapClientWithScreen(GridBasedLibrary.Coord,GridBasedLibrary.Size,GridBasedLibrary.Coord,GridBasedLibrary.Size)] Missing &lt;returns&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.HSMapClientWithScreen.CreateHSMapClientWithScreen(GridBasedLibrary.Coord,GridBasedLibrary.Size,GridBasedLibrary.Coord,GridBasedLibrary.Size)] Missing &lt;param name=&quot;cScreen&quot;/&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.HSMapClientWithScreen.CreateHSMapClientWithScreen(GridBasedLibrary.Coord,GridBasedLibrary.Size,GridBasedLibrary.Coord,GridBasedLibrary.Size)] Missing &lt;param name=&quot;sizeScreen&quot;/&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.HSMapClientWithScreen.CreateHSMapClientWithScreen(GridBasedLibrary.Coord,GridBasedLibrary.Size,GridBasedLibrary.ITile,GridBasedLibrary.Coord,GridBasedLibrary.Size)] Missing &lt;returns&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.HSMapClientWithScreen.CreateHSMapClientWithScreen(GridBasedLibrary.Coord,GridBasedLibrary.Size,GridBasedLibrary.ITile,GridBasedLibrary.Coord,GridBasedLibrary.Size)] Missing &lt;param name=&quot;cScreen&quot;/&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.HSMapClientWithScreen.CreateHSMapClientWithScreen(GridBasedLibrary.Coord,GridBasedLibrary.Size,GridBasedLibrary.ITile,GridBasedLibrary.Coord,GridBasedLibrary.Size)] Missing &lt;param name=&quot;sizeScreen&quot;/&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.HSMapClientWithScreen.CreateHSMapClientWithScreen(GridBasedLibrary.ILocated,GridBasedLibrary.Size,GridBasedLibrary.ILocated,GridBasedLibrary.Size)] Missing &lt;returns&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.HSMapClientWithScreen.CreateHSMapClientWithScreen(GridBasedLibrary.ILocated,GridBasedLibrary.Size,GridBasedLibrary.ILocated,GridBasedLibrary.Size)] Missing &lt;param name=&quot;cScreen&quot;/&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.HSMapClientWithScreen.CreateHSMapClientWithScreen(GridBasedLibrary.ILocated,GridBasedLibrary.Size,GridBasedLibrary.ILocated,GridBasedLibrary.Size)] Missing &lt;param name=&quot;sizeScreen&quot;/&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.HSMapClientWithScreen.CreateHSMapClientWithScreen(GridBasedLibrary.ILocated,GridBasedLibrary.Size,GridBasedLibrary.ITile,GridBasedLibrary.ILocated,GridBasedLibrary.Size)] Missing &lt;returns&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.HSMapClientWithScreen.CreateHSMapClientWithScreen(GridBasedLibrary.ILocated,GridBasedLibrary.Size,GridBasedLibrary.ITile,GridBasedLibrary.ILocated,GridBasedLibrary.Size)] Missing &lt;param name=&quot;cScreen&quot;/&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.HSMapClientWithScreen.CreateHSMapClientWithScreen(GridBasedLibrary.ILocated,GridBasedLibrary.Size,GridBasedLibrary.ITile,GridBasedLibrary.ILocated,GridBasedLibrary.Size)] Missing &lt;param name=&quot;sizeScreen&quot;/&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.HSMapClientWithScreen.CreateHSMapClientWithScreen(GridBasedLibrary.Rectangle,GridBasedLibrary.ITile,GridBasedLibrary.Rectangle)] Missing &lt;returns&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.HSMapClientWithScreen.CreateHSMapClientWithScreen(GridBasedLibrary.Rectangle,GridBasedLibrary.ITile,GridBasedLibrary.Rectangle)] Missing &lt;param name=&quot;screen&quot;/&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.HSMapClientWithScreen.CreateHSMapClientWithScreen(GridBasedLibrary.Rectangle,GridBasedLibrary.Rectangle)] Missing &lt;returns&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.HSMapClientWithScreen.CreateHSMapClientWithScreen(GridBasedLibrary.Rectangle,GridBasedLibrary.Rectangle)] Missing &lt;param name=&quot;screen&quot;/&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.HSMapClientWithScreen.CreateHSMapClientWithScreen(System.Int32,System.Int32,System.UInt32,System.UInt32,GridBasedLibrary.ITile,System.Int32,System.Int32,System.Int32,System.Int32)] Missing &lt;returns&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.HSMapClientWithScreen.CreateHSMapClientWithScreen(System.Int32,System.Int32,System.UInt32,System.UInt32,GridBasedLibrary.ITile,System.Int32,System.Int32,System.Int32,System.Int32)] Missing &lt;param name=&quot;xScreen&quot;/&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.HSMapClientWithScreen.CreateHSMapClientWithScreen(System.Int32,System.Int32,System.UInt32,System.UInt32,GridBasedLibrary.ITile,System.Int32,System.Int32,System.Int32,System.Int32)] Missing &lt;param name=&quot;yScreen&quot;/&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.HSMapClientWithScreen.CreateHSMapClientWithScreen(System.Int32,System.Int32,System.UInt32,System.UInt32,GridBasedLibrary.ITile,System.Int32,System.Int32,System.Int32,System.Int32)] Missing &lt;param name=&quot;widthScreen&quot;/&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.HSMapClientWithScreen.CreateHSMapClientWithScreen(System.Int32,System.Int32,System.UInt32,System.UInt32,GridBasedLibrary.ITile,System.Int32,System.Int32,System.Int32,System.Int32)] Missing &lt;param name=&quot;heightScreen&quot;/&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.HSMapClientWithScreen.CreateHSMapClientWithScreen(System.Int32,System.Int32,System.UInt32,System.UInt32,System.Int32,System.Int32,System.Int32,System.Int32)] Missing &lt;returns&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.HSMapClientWithScreen.CreateHSMapClientWithScreen(System.Int32,System.Int32,System.UInt32,System.UInt32,System.Int32,System.Int32,System.Int32,System.Int32)] Missing &lt;param name=&quot;xScreen&quot;/&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.HSMapClientWithScreen.CreateHSMapClientWithScreen(System.Int32,System.Int32,System.UInt32,System.UInt32,System.Int32,System.Int32,System.Int32,System.Int32)] Missing &lt;param name=&quot;yScreen&quot;/&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.HSMapClientWithScreen.CreateHSMapClientWithScreen(System.Int32,System.Int32,System.UInt32,System.UInt32,System.Int32,System.Int32,System.Int32,System.Int32)] Missing &lt;param name=&quot;widthScreen&quot;/&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.HSMapClientWithScreen.CreateHSMapClientWithScreen(System.Int32,System.Int32,System.UInt32,System.UInt32,System.Int32,System.Int32,System.Int32,System.Int32)] Missing &lt;param name=&quot;heightScreen&quot;/&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.HSMapClientWithScreen.GetScreenUp(System.Int32)] Missing &lt;param name=&quot;offset&quot;/&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.HSMapClientWithScreen.MoveScreenTo(System.Int32,System.Int32)] Missing &lt;param name=&quot;destY&quot;/&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.HSMapTileClient.SetTile(GridBasedLibrary.ITile)] Missing &lt;param name=&quot;tile&quot;/&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.HSTile.#ctor(System.String,System.Boolean)] Missing &lt;param name=&quot;static&quot;/&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.HSTile.OnActorEntering(GridBasedLibrary.IActor,GridBasedLibrary.IMapTile,GridBasedLibrary.IMapTile)] Missing &lt;param name=&quot;from&quot;/&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.HSTile.OnActorLeaving(GridBasedLibrary.IActor,GridBasedLibrary.IMapTile,GridBasedLibrary.IMapTile)] Missing &lt;param name=&quot;from&quot;/&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:GridBasedLibrary.IActor.MovedEventHandler] Missing &lt;summary&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:GridBasedLibrary.IActor.MovingEventHandler] Missing &lt;summary&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.ICoordSelecter.IsSelected(GridBasedLibrary.ILocated)] Missing &lt;returns&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.ICoordSelecter.IsSelected(GridBasedLibrary.ILocated[])] Missing &lt;returns&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.ICoordSelecter.IsSelected(System.Int32,System.Int32)] Missing &lt;returns&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:GridBasedLibrary.IErrorable.ErrorEventHandler] Missing &lt;summary&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.IMovable.Set(GridBasedLibrary.ILocated)] Missing &lt;param name=&quot;c&quot;/&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.IMovable.Set(System.Int32,System.Int32)] Missing &lt;param name=&quot;x&quot;/&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.IMovable.Set(System.Int32,System.Int32)] Missing &lt;param name=&quot;y&quot;/&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.IRandomGenerator.NextInt(System.Int32)] Missing &lt;param name=&quot;Max&quot;/&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.IRandomGenerator.NextInt(System.Int32,System.Int32)] Missing &lt;param name=&quot;Min&quot;/&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.IRandomGenerator.NextInt(System.Int32,System.Int32)] Missing &lt;param name=&quot;Max&quot;/&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.ITile.OnActorEntering(GridBasedLibrary.IActor,GridBasedLibrary.IMapTile,GridBasedLibrary.IMapTile)] Missing &lt;param name=&quot;from&quot;/&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.ITile.OnActorLeaving(GridBasedLibrary.IActor,GridBasedLibrary.IMapTile,GridBasedLibrary.IMapTile)] Missing &lt;param name=&quot;from&quot;/&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:GridBasedLibrary.ITile.ActorEnteredEventHandler] Missing &lt;summary&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:GridBasedLibrary.ITile.ActorEnteringEventHandler] Missing &lt;summary&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:GridBasedLibrary.ITile.ActorLeavedEventHandler] Missing &lt;summary&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:GridBasedLibrary.ITile.ActorLeavingEventHandler] Missing &lt;summary&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.ListCoordSelecter.IsSelected(GridBasedLibrary.ILocated)] Missing &lt;returns&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.ListCoordSelecter.IsSelected(System.Int32,System.Int32)] Missing &lt;returns&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.MazeGenerator.#ctor(GridBasedLibrary.IRandomGenerator,GridBasedLibrary.ITile,GridBasedLibrary.ITile,GridBasedLibrary.ILocated,GridBasedLibrary.mazeMode,GridBasedLibrary.flagStartPoint)] Missing &lt;param name=&quot;startPoint&quot;/&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.MazeGenerator.MakeBranch(GridBasedLibrary.Coord)] Missing &lt;summary&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.MazeGenerator.MakeBranch(GridBasedLibrary.Coord)] Missing &lt;param name=&quot;CurrentPoint&quot;/&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.Movable.Set(GridBasedLibrary.ILocated)] Missing &lt;param name=&quot;c&quot;/&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.Movable.Set(System.Int32,System.Int32)] Missing &lt;param name=&quot;x&quot;/&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.Movable.Set(System.Int32,System.Int32)] Missing &lt;param name=&quot;y&quot;/&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.MSRandomGenerator.NextInt(System.Int32)] Missing &lt;param name=&quot;Max&quot;/&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.MSRandomGenerator.NextInt(System.Int32,System.Int32)] Missing &lt;param name=&quot;Min&quot;/&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.MSRandomGenerator.NextInt(System.Int32,System.Int32)] Missing &lt;param name=&quot;Max&quot;/&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.RandomGenerator.NextInt(System.Int32)] Missing &lt;param name=&quot;Max&quot;/&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.RandomGenerator.NextInt(System.Int32,System.Int32)] Missing &lt;param name=&quot;Min&quot;/&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.RandomGenerator.NextInt(System.Int32,System.Int32)] Missing &lt;param name=&quot;Max&quot;/&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.StaticRange.op_Concatenate(GridBasedLibrary.IRange,GridBasedLibrary.StaticRange)] Missing &lt;summary&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.StaticRange.op_Concatenate(GridBasedLibrary.IRange,GridBasedLibrary.StaticRange)] Missing &lt;returns&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.StaticRange.op_Concatenate(GridBasedLibrary.IRange,GridBasedLibrary.StaticRange)] Missing &lt;param name=&quot;left&quot;/&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.StaticRange.op_Concatenate(GridBasedLibrary.IRange,GridBasedLibrary.StaticRange)] Missing &lt;param name=&quot;right&quot;/&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.StaticRange.op_Concatenate(GridBasedLibrary.StaticRange,GridBasedLibrary.IRange)] Missing &lt;summary&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.StaticRange.op_Concatenate(GridBasedLibrary.StaticRange,GridBasedLibrary.IRange)] Missing &lt;returns&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.StaticRange.op_Concatenate(GridBasedLibrary.StaticRange,GridBasedLibrary.IRange)] Missing &lt;param name=&quot;left&quot;/&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.StaticRange.op_Concatenate(GridBasedLibrary.StaticRange,GridBasedLibrary.IRange)] Missing &lt;param name=&quot;right&quot;/&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.StaticRange.op_Concatenate(GridBasedLibrary.StaticRange,GridBasedLibrary.StaticRange)] Missing &lt;summary&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.StaticRange.op_Concatenate(GridBasedLibrary.StaticRange,GridBasedLibrary.StaticRange)] Missing &lt;returns&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.StaticRange.op_Concatenate(GridBasedLibrary.StaticRange,GridBasedLibrary.StaticRange)] Missing &lt;param name=&quot;left&quot;/&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.StaticRange.op_Concatenate(GridBasedLibrary.StaticRange,GridBasedLibrary.StaticRange)] Missing &lt;param name=&quot;right&quot;/&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.StaticRange.op_Equality(GridBasedLibrary.IRange,GridBasedLibrary.StaticRange)] Missing &lt;summary&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.StaticRange.op_Equality(GridBasedLibrary.IRange,GridBasedLibrary.StaticRange)] Missing &lt;returns&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.StaticRange.op_Equality(GridBasedLibrary.IRange,GridBasedLibrary.StaticRange)] Missing &lt;param name=&quot;left&quot;/&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.StaticRange.op_Equality(GridBasedLibrary.IRange,GridBasedLibrary.StaticRange)] Missing &lt;param name=&quot;right&quot;/&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.StaticRange.op_Equality(GridBasedLibrary.StaticRange,GridBasedLibrary.IRange)] Missing &lt;summary&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.StaticRange.op_Equality(GridBasedLibrary.StaticRange,GridBasedLibrary.IRange)] Missing &lt;returns&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.StaticRange.op_Equality(GridBasedLibrary.StaticRange,GridBasedLibrary.IRange)] Missing &lt;param name=&quot;left&quot;/&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.StaticRange.op_Equality(GridBasedLibrary.StaticRange,GridBasedLibrary.IRange)] Missing &lt;param name=&quot;right&quot;/&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.StaticRange.op_Equality(GridBasedLibrary.StaticRange,GridBasedLibrary.StaticRange)] Missing &lt;summary&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.StaticRange.op_Equality(GridBasedLibrary.StaticRange,GridBasedLibrary.StaticRange)] Missing &lt;returns&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.StaticRange.op_Equality(GridBasedLibrary.StaticRange,GridBasedLibrary.StaticRange)] Missing &lt;param name=&quot;left&quot;/&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.StaticRange.op_Equality(GridBasedLibrary.StaticRange,GridBasedLibrary.StaticRange)] Missing &lt;param name=&quot;right&quot;/&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.StaticRange.op_GreaterThan(GridBasedLibrary.IRange,GridBasedLibrary.StaticRange)] Missing &lt;summary&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.StaticRange.op_GreaterThan(GridBasedLibrary.IRange,GridBasedLibrary.StaticRange)] Missing &lt;returns&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.StaticRange.op_GreaterThan(GridBasedLibrary.IRange,GridBasedLibrary.StaticRange)] Missing &lt;param name=&quot;left&quot;/&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.StaticRange.op_GreaterThan(GridBasedLibrary.IRange,GridBasedLibrary.StaticRange)] Missing &lt;param name=&quot;right&quot;/&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.StaticRange.op_GreaterThan(GridBasedLibrary.StaticRange,GridBasedLibrary.IRange)] Missing &lt;summary&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.StaticRange.op_GreaterThan(GridBasedLibrary.StaticRange,GridBasedLibrary.IRange)] Missing &lt;returns&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.StaticRange.op_GreaterThan(GridBasedLibrary.StaticRange,GridBasedLibrary.IRange)] Missing &lt;param name=&quot;left&quot;/&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.StaticRange.op_GreaterThan(GridBasedLibrary.StaticRange,GridBasedLibrary.IRange)] Missing &lt;param name=&quot;right&quot;/&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.StaticRange.op_GreaterThan(GridBasedLibrary.StaticRange,GridBasedLibrary.StaticRange)] Missing &lt;summary&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.StaticRange.op_GreaterThan(GridBasedLibrary.StaticRange,GridBasedLibrary.StaticRange)] Missing &lt;returns&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.StaticRange.op_GreaterThan(GridBasedLibrary.StaticRange,GridBasedLibrary.StaticRange)] Missing &lt;param name=&quot;left&quot;/&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.StaticRange.op_GreaterThan(GridBasedLibrary.StaticRange,GridBasedLibrary.StaticRange)] Missing &lt;param name=&quot;right&quot;/&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.StaticRange.op_Inequality(GridBasedLibrary.IRange,GridBasedLibrary.StaticRange)] Missing &lt;summary&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.StaticRange.op_Inequality(GridBasedLibrary.IRange,GridBasedLibrary.StaticRange)] Missing &lt;returns&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.StaticRange.op_Inequality(GridBasedLibrary.IRange,GridBasedLibrary.StaticRange)] Missing &lt;param name=&quot;left&quot;/&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.StaticRange.op_Inequality(GridBasedLibrary.IRange,GridBasedLibrary.StaticRange)] Missing &lt;param name=&quot;right&quot;/&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.StaticRange.op_Inequality(GridBasedLibrary.StaticRange,GridBasedLibrary.IRange)] Missing &lt;summary&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.StaticRange.op_Inequality(GridBasedLibrary.StaticRange,GridBasedLibrary.IRange)] Missing &lt;returns&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.StaticRange.op_Inequality(GridBasedLibrary.StaticRange,GridBasedLibrary.IRange)] Missing &lt;param name=&quot;left&quot;/&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.StaticRange.op_Inequality(GridBasedLibrary.StaticRange,GridBasedLibrary.IRange)] Missing &lt;param name=&quot;right&quot;/&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.StaticRange.op_Inequality(GridBasedLibrary.StaticRange,GridBasedLibrary.StaticRange)] Missing &lt;summary&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.StaticRange.op_Inequality(GridBasedLibrary.StaticRange,GridBasedLibrary.StaticRange)] Missing &lt;returns&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.StaticRange.op_Inequality(GridBasedLibrary.StaticRange,GridBasedLibrary.StaticRange)] Missing &lt;param name=&quot;left&quot;/&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.StaticRange.op_Inequality(GridBasedLibrary.StaticRange,GridBasedLibrary.StaticRange)] Missing &lt;param name=&quot;right&quot;/&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.StaticRange.op_LessThan(GridBasedLibrary.IRange,GridBasedLibrary.StaticRange)] Missing &lt;summary&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.StaticRange.op_LessThan(GridBasedLibrary.IRange,GridBasedLibrary.StaticRange)] Missing &lt;returns&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.StaticRange.op_LessThan(GridBasedLibrary.IRange,GridBasedLibrary.StaticRange)] Missing &lt;param name=&quot;left&quot;/&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.StaticRange.op_LessThan(GridBasedLibrary.IRange,GridBasedLibrary.StaticRange)] Missing &lt;param name=&quot;right&quot;/&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.StaticRange.op_LessThan(GridBasedLibrary.StaticRange,GridBasedLibrary.IRange)] Missing &lt;summary&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.StaticRange.op_LessThan(GridBasedLibrary.StaticRange,GridBasedLibrary.IRange)] Missing &lt;returns&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.StaticRange.op_LessThan(GridBasedLibrary.StaticRange,GridBasedLibrary.IRange)] Missing &lt;param name=&quot;left&quot;/&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.StaticRange.op_LessThan(GridBasedLibrary.StaticRange,GridBasedLibrary.IRange)] Missing &lt;param name=&quot;right&quot;/&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.StaticRange.op_LessThan(GridBasedLibrary.StaticRange,GridBasedLibrary.StaticRange)] Missing &lt;summary&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.StaticRange.op_LessThan(GridBasedLibrary.StaticRange,GridBasedLibrary.StaticRange)] Missing &lt;returns&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.StaticRange.op_LessThan(GridBasedLibrary.StaticRange,GridBasedLibrary.StaticRange)] Missing &lt;param name=&quot;left&quot;/&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GridBasedLibrary.StaticRange.op_LessThan(GridBasedLibrary.StaticRange,GridBasedLibrary.StaticRange)] Missing &lt;param name=&quot;right&quot;/&gt; documentation [F:\Help\Working\BuildReferenceTopics.proj]
+  Processed 1173 topic(s)
+  207 warning(s)
+  CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 4 of 15.
+  CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 3 of 30.
+  ResolveReferenceLinksComponent: New MSDN content ID cache size: 54 entries
+Compilazione progetto &quot;F:\Help\Working\BuildReferenceTopics.proj&quot; (destinazioni predefinite) completata.
+
+Compilazione completata.
+
+Tempo trascorso 00:01:59.58
+    Last step completed in 00:02:01,0843
+</buildStep>
+<buildStep step="CombiningIntermediateTocFiles">
+Combining conceptual and API intermediate TOC files...
+    Last step completed in 00:00:00,0000
+</buildStep>
+<buildStep step="ExtractingHtmlInfo">
+Extracting HTML info for HTML Help 1 and/or website...
+[C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe]
+Sandcastle Help File Builder, version 2015.5.2.0
+Copyright &#184; 2006-2015, Eric Woodruff, All Rights Reserved
+E-Mail: Eric@EWoodruff.us
+
+Using LCID &#39;1033&#39;, code page &#39;65001&#39;, encoding charset &#39;UTF-8&#39;.
+
+Processing Help 1 files in F:\Help\Working\Output\HtmlHelp1
+Processed 1173 HTML files
+Sorting keywords and generating See Also indices
+Saving HTML Help 1 keyword index to F:\Help\Working\Documentation.hhk
+Saving HTML Help 1 table of contents to F:\Help\Working\Documentation.hhc
+    Last step completed in 00:01:12,5801
+</buildStep>
+<buildStep step="CopyStandardHelpContent">
+Copying standard help content...
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\AlertCaution.png -&gt; F:\Help\Working\Output\HtmlHelp1\icons\AlertCaution.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\AlertNote.png -&gt; F:\Help\Working\Output\HtmlHelp1\icons\AlertNote.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\AlertSecurity.png -&gt; F:\Help\Working\Output\HtmlHelp1\icons\AlertSecurity.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\CFW.gif -&gt; F:\Help\Working\Output\HtmlHelp1\icons\CFW.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\CodeExample.png -&gt; F:\Help\Working\Output\HtmlHelp1\icons\CodeExample.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\favicon.ico -&gt; F:\Help\Working\Output\HtmlHelp1\icons\favicon.ico
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privclass.gif -&gt; F:\Help\Working\Output\HtmlHelp1\icons\privclass.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privdelegate.gif -&gt; F:\Help\Working\Output\HtmlHelp1\icons\privdelegate.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privenumeration.gif -&gt; F:\Help\Working\Output\HtmlHelp1\icons\privenumeration.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privevent.gif -&gt; F:\Help\Working\Output\HtmlHelp1\icons\privevent.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privextension.gif -&gt; F:\Help\Working\Output\HtmlHelp1\icons\privextension.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privfield.gif -&gt; F:\Help\Working\Output\HtmlHelp1\icons\privfield.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privinterface.gif -&gt; F:\Help\Working\Output\HtmlHelp1\icons\privinterface.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privmethod.gif -&gt; F:\Help\Working\Output\HtmlHelp1\icons\privmethod.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privproperty.gif -&gt; F:\Help\Working\Output\HtmlHelp1\icons\privproperty.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privstructure.gif -&gt; F:\Help\Working\Output\HtmlHelp1\icons\privstructure.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protclass.gif -&gt; F:\Help\Working\Output\HtmlHelp1\icons\protclass.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protdelegate.gif -&gt; F:\Help\Working\Output\HtmlHelp1\icons\protdelegate.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protenumeration.gif -&gt; F:\Help\Working\Output\HtmlHelp1\icons\protenumeration.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protevent.gif -&gt; F:\Help\Working\Output\HtmlHelp1\icons\protevent.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protextension.gif -&gt; F:\Help\Working\Output\HtmlHelp1\icons\protextension.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protfield.gif -&gt; F:\Help\Working\Output\HtmlHelp1\icons\protfield.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protinterface.gif -&gt; F:\Help\Working\Output\HtmlHelp1\icons\protinterface.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protmethod.gif -&gt; F:\Help\Working\Output\HtmlHelp1\icons\protmethod.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protoperator.gif -&gt; F:\Help\Working\Output\HtmlHelp1\icons\protoperator.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protproperty.gif -&gt; F:\Help\Working\Output\HtmlHelp1\icons\protproperty.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protstructure.gif -&gt; F:\Help\Working\Output\HtmlHelp1\icons\protstructure.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubclass.gif -&gt; F:\Help\Working\Output\HtmlHelp1\icons\pubclass.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubdelegate.gif -&gt; F:\Help\Working\Output\HtmlHelp1\icons\pubdelegate.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubenumeration.gif -&gt; F:\Help\Working\Output\HtmlHelp1\icons\pubenumeration.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubevent.gif -&gt; F:\Help\Working\Output\HtmlHelp1\icons\pubevent.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubextension.gif -&gt; F:\Help\Working\Output\HtmlHelp1\icons\pubextension.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubfield.gif -&gt; F:\Help\Working\Output\HtmlHelp1\icons\pubfield.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubinterface.gif -&gt; F:\Help\Working\Output\HtmlHelp1\icons\pubinterface.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubmethod.gif -&gt; F:\Help\Working\Output\HtmlHelp1\icons\pubmethod.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\puboperator.gif -&gt; F:\Help\Working\Output\HtmlHelp1\icons\puboperator.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubproperty.gif -&gt; F:\Help\Working\Output\HtmlHelp1\icons\pubproperty.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubstructure.gif -&gt; F:\Help\Working\Output\HtmlHelp1\icons\pubstructure.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\SectionCollapsed.png -&gt; F:\Help\Working\Output\HtmlHelp1\icons\SectionCollapsed.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\SectionExpanded.png -&gt; F:\Help\Working\Output\HtmlHelp1\icons\SectionExpanded.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\slMobile.gif -&gt; F:\Help\Working\Output\HtmlHelp1\icons\slMobile.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\static.gif -&gt; F:\Help\Working\Output\HtmlHelp1\icons\static.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\xna.gif -&gt; F:\Help\Working\Output\HtmlHelp1\icons\xna.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\scripts\branding.js -&gt; F:\Help\Working\Output\HtmlHelp1\scripts\branding.js
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-cs-CZ.css -&gt; F:\Help\Working\Output\HtmlHelp1\styles\branding-cs-CZ.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-de-DE.css -&gt; F:\Help\Working\Output\HtmlHelp1\styles\branding-de-DE.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-en-US.css -&gt; F:\Help\Working\Output\HtmlHelp1\styles\branding-en-US.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-es-ES.css -&gt; F:\Help\Working\Output\HtmlHelp1\styles\branding-es-ES.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-fr-FR.css -&gt; F:\Help\Working\Output\HtmlHelp1\styles\branding-fr-FR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-Help1.css -&gt; F:\Help\Working\Output\HtmlHelp1\styles\branding-Help1.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-Help2.css -&gt; F:\Help\Working\Output\HtmlHelp1\styles\branding-Help2.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-HelpViewer.css -&gt; F:\Help\Working\Output\HtmlHelp1\styles\branding-HelpViewer.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-it-IT.css -&gt; F:\Help\Working\Output\HtmlHelp1\styles\branding-it-IT.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-ja-JP.css -&gt; F:\Help\Working\Output\HtmlHelp1\styles\branding-ja-JP.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-ko-KR.css -&gt; F:\Help\Working\Output\HtmlHelp1\styles\branding-ko-KR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-pl-PL.css -&gt; F:\Help\Working\Output\HtmlHelp1\styles\branding-pl-PL.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-pt-BR.css -&gt; F:\Help\Working\Output\HtmlHelp1\styles\branding-pt-BR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-ru-RU.css -&gt; F:\Help\Working\Output\HtmlHelp1\styles\branding-ru-RU.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-tr-TR.css -&gt; F:\Help\Working\Output\HtmlHelp1\styles\branding-tr-TR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-Website.css -&gt; F:\Help\Working\Output\HtmlHelp1\styles\branding-Website.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-zh-CN.css -&gt; F:\Help\Working\Output\HtmlHelp1\styles\branding-zh-CN.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-zh-TW.css -&gt; F:\Help\Working\Output\HtmlHelp1\styles\branding-zh-TW.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding.css -&gt; F:\Help\Working\Output\HtmlHelp1\styles\branding.css
+    Last step completed in 00:00:05,0483
+</buildStep>
+<buildStep step="GenerateHelpFormatTableOfContents">
+Generating HTML Help 1 table of contents file...
+    Last step completed in 00:00:00,0156
+</buildStep>
+<buildStep step="GenerateHelpFileIndex">
+Generating HTML Help 1 index file...
+    Last step completed in 00:00:00,0000
+</buildStep>
+<buildStep step="GenerateHelpProject">
+Generating HTML Help 1 project file...
+    Last step completed in 00:00:00,0781
+</buildStep>
+<buildStep step="CompilingHelpFile">
+Compiling HTML Help 1 file...
+[C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe]
+  Microsoft HTML Help Compiler 4.74.8702
+  
+  
+  
+  Compiling f:\Help\Working\Output\HtmlHelp1\Documentation.chm
+  
+  
+  
+  
+  
+  Compile time: 0 minutes, 12 seconds
+  
+  1,175	Topics
+  
+  14,242	Local links
+  
+  2,037	Internet links
+  
+  0	Graphics
+  
+  
+  
+  
+  
+  Created f:\Help\Working\Output\HtmlHelp1\Documentation.chm, 1,097,007 bytes
+  
+  Compression decreased file by 8,232,164 bytes.
+  
+    Last step completed in 00:00:17,1754
+</buildStep>
+<buildStep step="CleanIntermediates">
+Removing intermediate files...
+    Last step completed in 00:00:32,6294
+</buildStep>
+<buildStep step="Completed">
+
+Build completed successfully at 13/05/2015 19.08.23.  Total time: 00:04:39,8770
+
+</buildStep>
+</shfbBuild>
